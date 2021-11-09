@@ -1,0 +1,54 @@
+# -- Site Configuration --
+# Refer to the theme docs for more details about each of these parameters.
+# https://jpanther.github.io/congo/docs/getting-started/
+
+theme = "congo"
+baseURL = "https://comicshrimp.github.io/website/"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "Mário Victor Ribeiro Silva"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+enableEmoji = true
+enableRobotsTXT = true
+
+summaryLength = 0
+
+[author]
+  name = "Mário Victor Ribeiro Silva"
+  image = "https://github.com/ComicShrimp.png"
+  # bio = "A little bit about you"
+  links = [
+    { github = "https://github.com/ComicShrimp" },
+    { linkedin = "https://linkedin.com/in/mario-victor-ribeiro-silva" },
+    { instagram = "https://instagram.com/comicshrimp_" },
+    { medium = "https://medium.com/@mariovictorrs" },
+  ]
+  #   { email = "mailto:hello@your_domain.com" },
+  #   { link = "https://link-to-some-website.com/" },
+  #   { codepen = "https://codepen.io/username" },
+  #   { dev = "https://dev.to/username" },
+  #   { discord = "https://discord.gg/invitecode" },
+  #   { dribbble = "https://dribbble.com/username" },
+  #   { facebook = "https://facebook.com/username" },
+  #   { foursquare = "https://foursquare.com/username" },
+  #   { github = "https://github.com/username" },
+  #   { gitlab = "https://gitlab.com/username" },
+  #   { instagram = "https://instagram.com/username" },
+  #   { keybase = "https://keybase.io/username" },
+  #   { lastfm = "https://lastfm.com/user/username" },
+  #   { linkedin = "https://linkedin.com/in/username" },
+  #   { mastodon = "https://mastodon.instance/@username" },
+  #   { medium = "https://medium.com/username" },
+  #   { pinterest = "https://pinterest.com/username" },
+  #   { reddit = "https://reddit.com/user/username" },
+  #   { slack = "https://workspace.url/team/userid" },
+  #   { snapchat = "https://snapchat.com/add/username" },
+  #   { soundcloud = "https://soundcloud.com/username" },
+  #   { steam = "https://steamcommunity.com/profiles/userid" },
+  #   { tiktok = "https://tiktok.com/@username" },
+  #   { twitch = "https://twitch.tv/username" },
+  #   { twitter = "https://twitter.com/username" },
+  #   { youtube = "https://youtube.com/username" },
+  # ]

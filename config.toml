@@ -1,4 +1,0 @@
-baseURL = 'https://comicshrimp.github.io/website/'
-languageCode = 'pt-BR'
-title = 'My New Hugo Site'
-theme="congo"
