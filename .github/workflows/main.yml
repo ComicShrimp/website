@@ -1,0 +1,23 @@
+name: Main CI Workflow
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout code"
+        uses: actions/checkout@v3
+
+      - name: "Setup Node"
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+          cache: "npm"
+          cache-dependency-path: "package-lock.json"
+
+      - name: "Install all dependencies"
+        run: npm ci
+
+      - name: "Run Lint verification"
+        run: npm run lint
