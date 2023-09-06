@@ -9,7 +9,7 @@ export default function Home() {
           <ProfilePicture width={250} height={250} />
         </div>
         <h1 className="text-6xl font-bold">Mário Victor</h1>
-        <p className="text-center text-2xl mb-5">Software Developer</p>
+        <p className="mb-5 text-center text-2xl">Software Developer</p>
         <SocialIcons iconHeight={35} iconWidth={35} />
       </div>
     </main>
