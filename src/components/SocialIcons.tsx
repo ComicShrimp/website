@@ -10,7 +10,7 @@ type Props = {
 
 export function SocialIcons({ iconWidth = 50, iconHeight = 50 }: Props) {
   return (
-    <div className="flex items-center justify-center space-x-8">
+    <div className="flex items-center justify-center space-x-4">
       <Image
         src={githubIcon}
         width={iconWidth}
