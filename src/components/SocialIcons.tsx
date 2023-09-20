@@ -11,7 +11,7 @@ type Props = {
 
 export function SocialIcons({ iconWidth = 50, iconHeight = 50 }: Props) {
   return (
-    <div className="flex items-center justify-center space-x-4">
+    <div className="flex items-center space-x-4">
       <Link href="https://github.com/ComicShrimp" target="_blank">
         <Image
           src={githubIcon}
