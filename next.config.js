@@ -5,6 +5,7 @@ const nextConfig = {
     dirs: ['src'],
   },
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
