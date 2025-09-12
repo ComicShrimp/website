@@ -1,0 +1,30 @@
+baseURL: https://mariovictor.dev/
+languageCode: pt-br
+title: Mário Victor
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+menu:
+  main:
+    - name: Blog
+      pageRef: /blog
+      weight: 1
+    - name: Search
+      weight: 2
+      params:
+        type: search
+    - name: GitHub
+      weight: 3
+      url: "https://github.com/ComicShrimp"
+      params:
+        icon: github
+
+# Parse Git commit
+enableGitInfo: true
+
+params:
+  # Display the last modification date
+  displayUpdatedDate: true
+  dateFormat: "January 2, 2006"
